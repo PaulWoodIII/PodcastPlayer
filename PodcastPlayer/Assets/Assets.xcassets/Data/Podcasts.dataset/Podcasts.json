@@ -1,0 +1,380 @@
+{
+  "podcasts": [
+        {
+          "type": "rss",
+          "overcastId": "99714",
+          "text": "Total Party Kill",
+          "title": "Total Party Kill",
+          "xmlUrl": "https://feeds.theincomparable.com/tpk",
+          "htmlUrl": "https://www.theincomparable.com/tpk/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "115484",
+          "text": "ESN Master Feed",
+          "title": "ESN Master Feed",
+          "xmlUrl": "http://feedpress.me/masterfeed",
+          "htmlUrl": "http://www.esn.fm/masterfeed/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "304996",
+          "text": "Robot or Not?",
+          "title": "Robot or Not?",
+          "xmlUrl": "https://feeds.theincomparable.com/robot",
+          "htmlUrl": "https://www.theincomparable.com/robot/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "356975",
+          "text": "Upgrade",
+          "title": "Upgrade",
+          "xmlUrl": "https://www.relay.fm/upgrade/feed",
+          "htmlUrl": "https://www.relay.fm/upgrade"
+        },
+        {
+          "type": "rss",
+          "overcastId": "44",
+          "text": "Common Sense with Dan Carlin",
+          "title": "Common Sense with Dan Carlin",
+          "xmlUrl": "http://feeds.feedburner.com/dancarlin/commonsense?format=xml",
+          "htmlUrl": "http://www.dancarlin.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "8848",
+          "text": "Developing Perspective",
+          "title": "Developing Perspective",
+          "xmlUrl": "http://developingperspective.com/feed/podcast/",
+          "htmlUrl": "http://developingperspective.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "230",
+          "text": "Benjamen Walker's Theory of Everything",
+          "title": "Benjamen Walker's Theory of Everything",
+          "xmlUrl": "http://feeds.prx.org/toe",
+          "htmlUrl": "http://theoryofeverythingpodcast.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "11651",
+          "text": "Bitsplitting",
+          "title": "Bitsplitting",
+          "xmlUrl": "https://bitsplitting.org/?feed=podcast",
+          "htmlUrl": "https://bitsplitting.org/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "197362",
+          "text": "Analog(ue)",
+          "title": "Analog(ue)",
+          "xmlUrl": "https://www.relay.fm/analogue/feed",
+          "htmlUrl": "https://www.relay.fm/analogue"
+        },
+        {
+          "type": "rss",
+          "overcastId": "126160",
+          "text": "The Talk Show With John Gruber",
+          "title": "The Talk Show With John Gruber",
+          "xmlUrl": "https://daringfireball.net/thetalkshow/rss",
+          "htmlUrl": "https://daringfireball.net/thetalkshow"
+        },
+        {
+          "type": "rss",
+          "overcastId": "490648",
+          "text": "Do By Friday",
+          "title": "Do By Friday",
+          "xmlUrl": "https://rss.simplecast.com/podcasts/2389/rss",
+          "htmlUrl": "http://dobyfriday.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "329855",
+          "text": "Road Work",
+          "title": "Road Work",
+          "xmlUrl": "http://feeds.5by5.tv/roadwork",
+          "htmlUrl": "http://5by5.tv/roadwork"
+        },
+        {
+          "type": "rss",
+          "overcastId": "94162",
+          "text": "The Record",
+          "title": "The Record",
+          "xmlUrl": "http://therecord.co/xml/rss.xml",
+          "htmlUrl": "http://therecord.co/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "330086",
+          "text": "B-Sides",
+          "title": "B-Sides",
+          "xmlUrl": "https://www.relay.fm/b-sides/feed",
+          "htmlUrl": "https://www.relay.fm/b-sides"
+        },
+        {
+          "type": "rss",
+          "overcastId": "16",
+          "text": "Dan Carlin's Hardcore History",
+          "title": "Dan Carlin's Hardcore History",
+          "xmlUrl": "http://feeds.feedburner.com/dancarlin/history?format=xml",
+          "htmlUrl": "http://www.dancarlin.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "332854",
+          "text": "Top Four",
+          "title": "Top Four",
+          "xmlUrl": "https://www.relay.fm/topfour/feed",
+          "htmlUrl": "https://www.relay.fm/topfour"
+        },
+        {
+          "type": "rss",
+          "overcastId": "232627",
+          "text": "Clockwise",
+          "title": "Clockwise",
+          "xmlUrl": "https://www.relay.fm/clockwise/feed",
+          "htmlUrl": "https://www.relay.fm/clockwise"
+        },
+        {
+          "type": "rss",
+          "overcastId": "237984",
+          "text": "Melton",
+          "title": "Melton",
+          "xmlUrl": "http://feeds.feedburner.com/meltonshow",
+          "htmlUrl": "http://www.imore.com/donmelton"
+        },
+        {
+          "type": "rss",
+          "overcastId": "582697",
+          "text": "AppStories",
+          "title": "AppStories",
+          "xmlUrl": "https://appstories.net/episodes/feed/",
+          "htmlUrl": "https://appstories.net/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "1065479",
+          "text": "The Swift Community Podcast",
+          "title": "The Swift Community Podcast",
+          "xmlUrl": "https://www.swiftcommunitypodcast.org/?format=rss",
+          "htmlUrl": "https://www.swiftcommunitypodcast.org/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "94282",
+          "text": "Shanghai Comedy Corner",
+          "title": "Shanghai Comedy Corner",
+          "xmlUrl": "http://shanghaicomedycorner.podomatic.com/rss2.xml",
+          "htmlUrl": "https://www.podomatic.com/podcasts/shanghaicomedycorner"
+        },
+        {
+          "type": "rss",
+          "overcastId": "9202",
+          "text": "Debug",
+          "title": "Debug",
+          "xmlUrl": "http://feeds.feedburner.com/debugshow",
+          "htmlUrl": "http://www.imore.com/debug/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "228185",
+          "text": "The Rebound",
+          "title": "The Rebound",
+          "xmlUrl": "https://rss.art19.com/the-rebound",
+          "htmlUrl": "https://art19.com/shows/the-rebound"
+        },
+        {
+          "type": "rss",
+          "overcastId": "222635",
+          "text": "ChinesePod",
+          "title": "ChinesePod",
+          "xmlUrl": "https://chinesepod.podbean.com/feed.xml",
+          "htmlUrl": "http://chinesepod.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "320643",
+          "text": "Reconcilable Differences",
+          "title": "Reconcilable Differences",
+          "xmlUrl": "https://www.relay.fm/rd/feed",
+          "htmlUrl": "https://www.relay.fm/rd"
+        },
+        {
+          "type": "rss",
+          "overcastId": "686523",
+          "text": "The Tim Ferriss Show",
+          "title": "The Tim Ferriss Show",
+          "xmlUrl": "https://rss.art19.com/tim-ferriss-show",
+          "htmlUrl": "https://tim.blog/podcast"
+        },
+        {
+          "type": "rss",
+          "overcastId": "104515",
+          "text": "Roderick on the Line",
+          "title": "Roderick on the Line",
+          "xmlUrl": "http://feeds.feedburner.com/RoderickOnTheLine",
+          "htmlUrl": "http://www.merlinmann.com/roderick/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "37062",
+          "text": "The Incomparable",
+          "title": "The Incomparable",
+          "xmlUrl": "https://feeds.theincomparable.com/theincomparable",
+          "htmlUrl": "https://www.theincomparable.com/theincomparable/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "138606",
+          "text": "WSJ Tech News Briefing",
+          "title": "WSJ Tech News Briefing",
+          "xmlUrl": "http://feeds.panoply.fm/WSJ8523681216?limit=20",
+          "htmlUrl": "https://www.wsj.com/podcasts/tech-news-briefing"
+        },
+        {
+          "type": "rss",
+          "overcastId": "120492",
+          "text": "Hello Internet",
+          "title": "Hello Internet",
+          "xmlUrl": "http://www.hellointernet.fm/podcast?format=rss",
+          "htmlUrl": "http://www.hellointernet.fm/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "323006",
+          "text": "Cortex",
+          "title": "Cortex",
+          "xmlUrl": "https://www.relay.fm/cortex/feed",
+          "htmlUrl": "https://www.relay.fm/cortex"
+        },
+        {
+          "type": "rss",
+          "overcastId": "77164",
+          "text": "TLDR",
+          "title": "TLDR",
+          "xmlUrl": "http://feeds.wnyc.org/otm_tldr",
+          "htmlUrl": "https://www.wnyc.org/tags/tldr_podcast"
+        },
+        {
+          "type": "rss",
+          "overcastId": "505720",
+          "text": "Hidden Brain",
+          "title": "Hidden Brain",
+          "xmlUrl": "https://www.npr.org/rss/podcast.php?id=510308",
+          "htmlUrl": "https://npr.org/series/423302056/hidden-brain"
+        },
+        {
+          "type": "rss",
+          "overcastId": "729101",
+          "text": "The Good News Podcast",
+          "title": "The Good News Podcast",
+          "xmlUrl": "https://feeds.transistor.fm/the-good-news-podcast",
+          "htmlUrl": "https://www.thegoodnewspodcast.fm/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "441649",
+          "text": "Young House Love Has A Podcast",
+          "title": "Young House Love Has A Podcast",
+          "xmlUrl": "http://younghouselove.libsyn.com/rss",
+          "htmlUrl": "http://www.younghouselove.com/podcast"
+        },
+        {
+          "type": "rss",
+          "overcastId": "139079",
+          "text": "WSJ What’s News",
+          "title": "WSJ What’s News",
+          "xmlUrl": "http://feeds.panoply.fm/WSJ4886593505?limit=20",
+          "htmlUrl": "https://www.wsj.com/podcasts/whats-news"
+        },
+        {
+          "type": "rss",
+          "overcastId": "914734",
+          "text": "Members Only",
+          "title": "Members Only",
+          "xmlUrl": "https://www.relay.fm/bonuscontent/feed",
+          "htmlUrl": "https://www.relay.fm/bonuscontent"
+        },
+        {
+          "type": "rss",
+          "overcastId": "1174581",
+          "text": "Accidental Tech Podcast",
+          "title": "Accidental Tech Podcast",
+          "xmlUrl": "https://atp.fm/episodes?format=rss",
+          "htmlUrl": "https://atp.fm/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "602247",
+          "text": "Independence",
+          "title": "Independence",
+          "xmlUrl": "https://podcasts.jellystyle.com/independence/rss",
+          "htmlUrl": "https://independence.fm/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "871276",
+          "text": "The Art of Manliness",
+          "title": "The Art of Manliness",
+          "xmlUrl": "https://rss.art19.com/art-of-manliness",
+          "htmlUrl": "https://www.artofmanliness.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "352030",
+          "text": "Connected",
+          "title": "Connected",
+          "xmlUrl": "https://www.relay.fm/connected/feed",
+          "htmlUrl": "https://www.relay.fm/connected"
+        },
+        {
+          "type": "rss",
+          "overcastId": "362732",
+          "text": "Liftoff",
+          "title": "Liftoff",
+          "xmlUrl": "https://www.relay.fm/liftoff/feed",
+          "htmlUrl": "https://www.relay.fm/liftoff"
+        },
+        {
+          "type": "rss",
+          "overcastId": "781780",
+          "text": "Playing for Fun",
+          "title": "Playing for Fun",
+          "xmlUrl": "https://www.relay.fm/playingforfun/feed",
+          "htmlUrl": "https://www.relay.fm/playingforfun"
+        },
+        {
+          "type": "rss",
+          "overcastId": "64858",
+          "text": "Good Movies Gone Bad",
+          "title": "Good Movies Gone Bad",
+          "xmlUrl": "http://theunsite.com/category/good-movies-gone-bad/feed/",
+          "htmlUrl": "http://theunsite.com/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "66983",
+          "text": "Just The Tip",
+          "title": "Just The Tip",
+          "xmlUrl": "https://justthetip.fm/feed/",
+          "htmlUrl": "https://justthetip.fm/"
+        },
+        {
+          "type": "rss",
+          "overcastId": "985944",
+          "text": "Make Do",
+          "title": "Make Do",
+          "xmlUrl": "https://www.relay.fm/makedo/feed",
+          "htmlUrl": "https://www.relay.fm/makedo"
+        },
+        {
+          "type": "rss",
+          "overcastId": "817751",
+          "text": "Measuring Up Podcast",
+          "title": "Measuring Up Podcast",
+          "xmlUrl": "http://measuringuppodcast.com/feed/podcast/",
+          "htmlUrl": "http://measuringuppodcast.com/"
+        }
+      ],
+}

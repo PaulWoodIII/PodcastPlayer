@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CombineFeedback",
+        "repositoryURL": "https://github.com/sergdort/CombineFeedback.git",
+        "state": {
+          "branch": "master",
+          "revision": "af02e8c46710127cd42124af9d95d00ac75198e0",
+          "version": null
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": "xcode11",
+          "revision": "80c0f2c4209047b5d6c4ebfdfbb18e806904046f",
+          "version": null
+        }
+      },
+      {
+        "package": "SFSafeSymbols",
+        "repositoryURL": "https://github.com/piknotech/SFSafeSymbols.git",
+        "state": {
+          "branch": null,
+          "revision": "6d243eed009eacef4354f80315309ba4e089c1ab",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "XMLParsing",
+        "repositoryURL": "https://github.com/ShawnMoore/XMLParsing.git",
+        "state": {
+          "branch": null,
+          "revision": "2b77a8078d9695aac1a0e5806768e819025174c3",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
