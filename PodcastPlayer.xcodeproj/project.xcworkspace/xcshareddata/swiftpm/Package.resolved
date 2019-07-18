@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "CombineFeedback",
-        "repositoryURL": "https://github.com/sergdort/CombineFeedback.git",
+        "repositoryURL": "https://github.com/sergdort/CombineFeedback",
         "state": {
           "branch": "master",
-          "revision": "af02e8c46710127cd42124af9d95d00ac75198e0",
+          "revision": "f14606fe13fc36d38ee396b776e95f30b746fed9",
           "version": null
         }
       },

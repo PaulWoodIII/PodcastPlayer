@@ -24,59 +24,45 @@ final class CloudService: NSObject, CloudServiceType {
   @objc dynamic var podcasts: PodcastList = PodcastList(podcasts: [])
   
   func podcastsPublisher() -> AnyPublisher<PodcastList, Never> {
-    return self.publisher(for: \.podcasts).eraseToAnyPublisher()
+    return self.publisher(for: \.podcasts)
+      .eraseToAnyPublisher()
   }
-
+  
   func fetchStoredPodcasts() -> AnyPublisher<PodcastList, Error>  {
-
-    return Future<PodcastList, Error>() { promise in
-      DispatchQueue.global(qos: .background).async {
-        // Background Thread
+    
+    return Deferred { () -> AnyPublisher<PodcastList, Error> in
+      
+      if self.podcasts.podcasts.count > 0 {
+        return Just(self.podcasts)
+          .setFailureType(to: Error.self)
+          .subscribe(on: DispatchQueue.main)
+          .eraseToAnyPublisher()
+      }
+      
+      let decoder =  Future<PodcastList, Error>() { promise in
         let data = DataAssets.Podcasts.value
         do {
           let rootObj = try JSONDecoder()
             .decode(PodcastList.self, from: data)
-          
-          DispatchQueue.main.async {
-            // Run UI Updates
-            self.podcasts = rootObj
-            promise(.success(rootObj))
-          }
+          self.podcasts = rootObj
+          promise(.success(rootObj))
         } catch {
-          // TODO Log and handle Errors
-          print(error)
-          DispatchQueue.main.async {
-            promise(.failure(NSError()))
-          }
+          promise(.failure(NSError()))
         }
       }
+      
+      return Just(())
+        .setFailureType(to: Error.self)
+        .flatMap{ _ in decoder }
+        .eraseToAnyPublisher()
     }.eraseToAnyPublisher()
   }
   
   func tryToFetchStoredPodcasts() -> AnyPublisher<Void, Error>  {
-    
-    return Future<Void, Error>() { promise in
-      DispatchQueue.global(qos: .background).async {
-        // Background Thread
-        let data = DataAssets.Podcasts.value
-        do {
-          let rootObj = try JSONDecoder()
-            .decode(PodcastList.self, from: data)
-          
-          DispatchQueue.main.async {
-            // Run UI Updates
-            self.podcasts = rootObj
-            promise(.success(()))
-          }
-        } catch {
-          // TODO Log and handle Errors
-          print(error)
-          DispatchQueue.main.async {
-            promise(.failure(NSError()))
-          }
-        }
-      }
-    }.eraseToAnyPublisher()
+    self.fetchStoredPodcasts()
+      .map({ _ in })//.mapToVoid
+      .subscribe(on: DispatchQueue.main)
+      .eraseToAnyPublisher()
   }
   
 }

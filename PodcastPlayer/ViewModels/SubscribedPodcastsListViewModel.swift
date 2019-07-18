@@ -63,17 +63,18 @@ ViewModel<SubscribedPodcastsListViewModel.State, SubscribedPodcastsListViewModel
           .eraseToAnyPublisher()
         
       case .loading, .loaded, .loadFailed:
-        return Publishers.Empty().eraseToAnyPublisher()
+        return Empty().eraseToAnyPublisher()
       }
     })
   }
   
-  init(initial: State = State()) {
+  init(initial: State = State(),
+       cloudService: CloudServiceType = CloudService.shared) {
     super.init(
       initial: initial,
       feedbacks: [
-        SubscribedPodcastsListViewModel.monitor(cloudService: CloudService.shared),
-        SubscribedPodcastsListViewModel.whenLoading(cloudService: CloudService.shared),
+        SubscribedPodcastsListViewModel.monitor(cloudService: cloudService),
+        SubscribedPodcastsListViewModel.whenLoading(cloudService: cloudService),
       ],
       scheduler: RunLoop.main,
       reducer: SubscribedPodcastsListViewModel.reduce

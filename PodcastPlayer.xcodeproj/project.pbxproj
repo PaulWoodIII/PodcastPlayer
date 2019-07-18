@@ -38,8 +38,8 @@
 		3C79D5C122DA2FE600F408F1 /* SubscribedPodcastsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D5C022DA2FE600F408F1 /* SubscribedPodcastsListView.swift */; };
 		3CC771B122DD54CE00C8AA46 /* SwiftCommunityPodcast-Episode1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CC771B022DD54CE00C8AA46 /* SwiftCommunityPodcast-Episode1.mp3 */; };
 		3CC771B322DD599700C8AA46 /* PaulsTest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3CC771B222DD592500C8AA46 /* PaulsTest.m4a */; };
-		3CE03D3C22DA331200579E55 /* CombineFeedback in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE03D3B22DA331200579E55 /* CombineFeedback */; };
-		3CE03D3E22DA331200579E55 /* CombineFeedbackUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE03D3D22DA331200579E55 /* CombineFeedbackUI */; };
+		3CC9DC9D22E0940C002030C8 /* CombineFeedback in Frameworks */ = {isa = PBXBuildFile; productRef = 3CC9DC9C22E0940C002030C8 /* CombineFeedback */; };
+		3CC9DC9F22E0940C002030C8 /* CombineFeedbackUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3CC9DC9E22E0940C002030C8 /* CombineFeedbackUI */; };
 		3CE03D4122DA335200579E55 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE03D4022DA335200579E55 /* Kingfisher */; };
 		3CE03D4422DA338700579E55 /* CloudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE03D4322DA338700579E55 /* CloudService.swift */; };
 		3CE03D4622DA33A700579E55 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE03D4522DA33A700579E55 /* ImageService.swift */; };
@@ -123,12 +123,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3B913C22DA411200C3A9EA /* SFSafeSymbols in Frameworks */,
+				3CC9DC9D22E0940C002030C8 /* CombineFeedback in Frameworks */,
 				3C1EB92722DA51EC0001A632 /* XMLParsing in Frameworks */,
 				3CE03D4122DA335200579E55 /* Kingfisher in Frameworks */,
+				3CC9DC9F22E0940C002030C8 /* CombineFeedbackUI in Frameworks */,
 				3CE03D4E22DA341100579E55 /* CloudKit.framework in Frameworks */,
-				3CE03D3C22DA331200579E55 /* CombineFeedback in Frameworks */,
 				3C1EB93422DA54EA0001A632 /* SwiftyXMLParser.framework in Frameworks */,
-				3CE03D3E22DA331200579E55 /* CombineFeedbackUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,11 +313,11 @@
 			);
 			name = PodcastPlayer;
 			packageProductDependencies = (
-				3CE03D3B22DA331200579E55 /* CombineFeedback */,
-				3CE03D3D22DA331200579E55 /* CombineFeedbackUI */,
 				3CE03D4022DA335200579E55 /* Kingfisher */,
 				3C3B913B22DA411200C3A9EA /* SFSafeSymbols */,
 				3C1EB92622DA51EC0001A632 /* XMLParsing */,
+				3CC9DC9C22E0940C002030C8 /* CombineFeedback */,
+				3CC9DC9E22E0940C002030C8 /* CombineFeedbackUI */,
 			);
 			productName = PodcastPlayer;
 			productReference = 3C79D5A122DA2F4300F408F1 /* PodcastPlayer.app */;
@@ -352,10 +352,10 @@
 			);
 			mainGroup = 3C79D59822DA2F4300F408F1;
 			packageReferences = (
-				3CE03D3A22DA331200579E55 /* XCRemoteSwiftPackageReference "CombineFeedback" */,
 				3CE03D3F22DA335200579E55 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				3C3B913A22DA411200C3A9EA /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
 				3C1EB92522DA51EC0001A632 /* XCRemoteSwiftPackageReference "XMLParsing" */,
+				3CC9DC9B22E0940C002030C8 /* XCRemoteSwiftPackageReference "CombineFeedback" */,
 			);
 			productRefGroup = 3C79D5A222DA2F4300F408F1 /* Products */;
 			projectDirPath = "";
@@ -703,9 +703,9 @@
 				minimumVersion = 0.4.0;
 			};
 		};
-		3CE03D3A22DA331200579E55 /* XCRemoteSwiftPackageReference "CombineFeedback" */ = {
+		3CC9DC9B22E0940C002030C8 /* XCRemoteSwiftPackageReference "CombineFeedback" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sergdort/CombineFeedback.git";
+			repositoryURL = "https://github.com/sergdort/CombineFeedback";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -732,14 +732,14 @@
 			package = 3C3B913A22DA411200C3A9EA /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
 			productName = SFSafeSymbols;
 		};
-		3CE03D3B22DA331200579E55 /* CombineFeedback */ = {
+		3CC9DC9C22E0940C002030C8 /* CombineFeedback */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3CE03D3A22DA331200579E55 /* XCRemoteSwiftPackageReference "CombineFeedback" */;
+			package = 3CC9DC9B22E0940C002030C8 /* XCRemoteSwiftPackageReference "CombineFeedback" */;
 			productName = CombineFeedback;
 		};
-		3CE03D3D22DA331200579E55 /* CombineFeedbackUI */ = {
+		3CC9DC9E22E0940C002030C8 /* CombineFeedbackUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3CE03D3A22DA331200579E55 /* XCRemoteSwiftPackageReference "CombineFeedback" */;
+			package = 3CC9DC9B22E0940C002030C8 /* XCRemoteSwiftPackageReference "CombineFeedback" */;
 			productName = CombineFeedbackUI;
 		};
 		3CE03D4022DA335200579E55 /* Kingfisher */ = {

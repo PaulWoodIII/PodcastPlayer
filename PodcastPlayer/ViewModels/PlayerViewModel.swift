@@ -217,7 +217,7 @@ final class PlayerViewModel: ViewModel<PlayerViewModel.State, PlayerViewModel.Ev
       case .stopped:
         state.player?.stop()
       }
-      return Publishers.Empty().eraseToAnyPublisher()
+      return Empty().eraseToAnyPublisher()
     })
   }
   

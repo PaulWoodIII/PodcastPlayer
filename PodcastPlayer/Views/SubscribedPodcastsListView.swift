@@ -53,12 +53,14 @@ struct SubscribedPodcastsListView : View {
 #if DEBUG
 struct SubscribedPodcastsListViewModel_Previews : PreviewProvider {
   static var previews: some View {
-    Widget(
-      viewModel: SubscribedPodcastsListViewModel(
-        initial: SubscribedPodcastsListViewModel.State()
-      ),
-      render: SubscribedPodcastsListView.init
-    )
+    NavigationView {
+      Widget(
+        viewModel: SubscribedPodcastsListViewModel(
+          initial: SubscribedPodcastsListViewModel.State()
+        ),
+        render: SubscribedPodcastsListView.init
+      )
+    }
   }
 }
 #endif
